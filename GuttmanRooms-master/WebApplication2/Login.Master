@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="WebApplication2.Login" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <%--CSS Stylesheet (Bootstrap)--%>
+        <link href="Content/bootstrap.css" rel="stylesheet" />
+         <%--CSS stylesheet for the login form only--%>
+        <link rel="stylesheet" type="text/css" href="login/style.css"/>
+        <style type="text/css">
+            .auto-style1 {
+                color: #005DAA;
+            }
+        </style>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
